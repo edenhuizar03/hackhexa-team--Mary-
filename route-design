@@ -1,0 +1,26 @@
+A --- B --- C
+|     |     |
+D --- E --- F
+Zonas bloqueadas: B
+
+A->D->E->F
+
+1. De A camina a D
+2. De D camina a E
+3. De E camináa F (destino)
+
+ME SIENTO CON SUERTE
+
+A --- B --- C
+|     |     |
+D ----+---- F
+|     |     |
+| --- H --- I
+|     |     |
+J --- K --- L
+Reto
+A->D->J->K <-Ruta más corta, porque no hay más que una vuelta
+A->D->H->K
+A->B->C-F-I-L-K
+A->B->C-F-I-H-K
+A->B->C-F-I-H-D-J-K
