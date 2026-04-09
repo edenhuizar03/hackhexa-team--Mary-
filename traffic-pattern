@@ -6,3 +6,31 @@
 }
 Entre más tarde, menos tráfico, porque todos entran a esa hora. Por ello, el mejor momento es a las 11:00. 
 `
+ME SIENTO CON SUERTE
+{
+  "8:00": {
+    "trafico": "alto",
+    "temperatura": "18°C",
+    "clima": "nublado"
+  },
+  "9:00": {
+    "trafico": "alto",
+    "temperatura": "20°C",
+    "clima": "soleado"
+  },
+  "10:00": {
+    "trafico": "medio",
+    "temperatura": "23°C",
+    "clima": "soleado"
+  },
+  "11:00": {
+    "trafico": "bajo",
+    "temperatura": "26°C",
+    "clima": "soleado"
+  }
+}
+
+El patrόn es que el tráfico más alto porque el clima es agradable sin molestar a los ojos del conductor y la temperatura es agradable igualmente. 
+Por otro lado, a partir de las 10:00 comienza a abajar el tráfico porque la temperatura principalmente porque la temperatura sube, generando más estrés.
+Por ello, el mejor horario es el de las 10:00, aun con trafico medio y temperatura de 23 grados, el trafico bajo de las 11:00 tiene mayor temperatura y generara
+mayor fluido por la desesperaciόn, y en el de las 10 no molesta el traer prisa. 
