@@ -1,8 +1,4 @@
 {
-  "temperatura": [
-    "alta",
-    "baja"
-  ],
   "movimiento": [
     "si",
     "no"
@@ -14,37 +10,22 @@
   "ruido": [
     "alto",
     "bajo"
-  ]
+  ],
+  "humo": [
+    "si",
+    "no"
+  ],
+ "policia": [
+"wiuwiu", 
+ "zzzz"
+],
+"Bombero": [
+"wiuwiu", 
+ "zzzz"
+]
+
 }
 
 Las sensores escenciales son los de movimiento y ruido, porque cuando hay actividad sospechosa que puede ser riesgos 
 la podemos detectar mediante un cambio en el movimiento o ruidos fuertes. 
 Por otro lado, la luz y temperatura no pueden ayudarnos a determinar si hay algo peligros en los alrededores.
-BONUS
-{
-  if (movimiento = "si") or (ruido = "alto") 
-then[
-    policia= "wiuwiu"]
-else
-[
-  policia= "zzzz"
-]
-}
-
-PRUEBA TU SUERTE
-{
- "humo": [
-    "si",
-    "no"
-  ]
-}
-
-{
-  if (humo = "si") 
-then[
-    Bomberos= "wiuwiu"]
-else
-[
-  Bomberos= "zzzz"
-]
-}
