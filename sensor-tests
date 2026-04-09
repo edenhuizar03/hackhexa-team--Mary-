@@ -1,0 +1,58 @@
+[
+  {
+    "caso": "A",
+    "humo": "no",
+    "movimiento": "si",
+    "ruido": "no"
+  },
+  {
+    "caso": "B",
+    "humo": "no",
+    "movimiento": "no",
+    "ruido": "si"
+  }
+ {
+    "caso": "C",
+    "humo": "si",
+    "movimiento": "no",
+    "ruido": "no"
+  }
+ {
+    "caso": "D",
+    "humo": "no",
+    "movimiento": "si",
+    "ruido": "si"
+  }
+ {
+    "caso": "E",
+    "humo": "si",
+    "movimiento": "si",
+    "ruido": "no"
+  }
+{
+    "caso": "F",
+    "humo": "si",
+    "movimiento": "no",
+    "ruido": "si"
+}
+{
+    "caso": "G",
+    "humo": "no",
+    "movimiento": "no",
+    "ruido": "no"
+  }
+{
+    "caso": "H",
+    "humo": "si",
+    "movimiento": "si",
+    "ruido": "si"
+  }
+]
+[
+if caso="A" or "G" then
+  seguro= "si"
+else
+  seguro= "no"
+]
+BONUS
+si funciona
