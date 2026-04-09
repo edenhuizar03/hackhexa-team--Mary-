@@ -1,0 +1,15 @@
+Mensaje: HOLA → IPMB
+La regla es leer el alfabeto como un array con posiciones, es decir asignar una posicion a cada letra del alfabero.
+Luego identificas la posicion de cada letra y le restas 1, esa es la posicion de tu letra real.
+Repites para cada letra
+
+Ejemplo para decifrar la palabra: PQP
+la poosiocion de la letra P es 16, 16-1=15, la letra de posicion 15 es la letra O
+Asi que la palabra oculta es OSO
+
+ME SIENTO CON SUERTE
+Mensaje: RXN0YSBlcyBsYSByZXNwdWVzdGEuIFRxbQ==
+Pista: Usa Google
+
+Esta es la respuesta. Tqm  
+
