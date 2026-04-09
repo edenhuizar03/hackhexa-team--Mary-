@@ -1,5 +1,6 @@
 # hackhexa-team--Mary-
 Descripciόn del Equipo:
+------------------------------
 Estudiante 001: Edén Huizar
 Signo: Leo
 Estatura: 1.64 m
