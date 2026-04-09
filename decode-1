@@ -1,0 +1,30 @@
+Mensaje: IPMB NVOEP
+
+Pista: ¿César?
+
+Respuesta: HOLA MUNDO
+
+for alfabeto: "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+resultado=" "
+leer cada letra en el mensaje (
+  if (letra in alfabeto) then
+    pos = posicion de la letra en el alfabeto
+    nueva = (pos-1)
+    resultado = resultado + nueva
+  else
+    resultado = "Ingrese caracteres validos del alfabeto en mayusculas"
+end for;
+
+ME SIENTO CON SUERTE
+for teclado: "QWERTYUIOPASDFGHJKLZXCVBNM"
+resultado=" "
+leer cada letra en el mensaje (
+  if (letra in teclado) then
+    pos = posicion de la letra en el alfabeto
+    nueva = (pos-1)
+    resultado = resultado + nueva
+  else
+    resultado = "Ingrese caracteres validos del alfabeto en mayusculas"
+end for;
+
+
