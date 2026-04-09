@@ -1,0 +1,30 @@
+Pasos
+1. Tener el alfabeto a la mano.
+2. Buscar la primera letra del mensaje en el alfabeto.
+3. Apuntar en una hoja, la letra anterior a la encontrada anteriormente.
+4. Repetir hasta terminar todo el mensaje.
+
+Codigo en Phyton
+
+def decodificar(mensaje):
+    abecedario = "abcdefghijklmnñopqrstuvwxyz"
+    resultado = ""
+
+    for letra in mensaje:
+        if letra.lower() in abecedario:
+            indice = abecedario.index(letra.lower())
+            nueva_letra = abecedario[indice - 1] 
+
+            if letra.isupper():
+                resultado += nueva_letra.upper()
+            else:
+                resultado += nueva_letra
+        else:
+            resultado += letra
+
+    return resultado
+
+
+mensaje = "Aqui se muestran los datos del problema"
+
+print(decodificar(mensaje))
