@@ -1,9 +1,32 @@
 {
-  if (movimiento = "si") or (ruido = "alto") 
+  if (movimiento = "si") and (ruido = "alto") 
 then[
-    policia= "wiuwiu"]
-else
+    prioridad = 5]
+elsif
 [
-  policia= "zzzz"
+  (movimiento = "si") or (ruido = "alto") or (luz = "alta"
+then[
+    pripridad= 1]
+elsif
+[
+  (humo = "si") and (movimiento = "si")
+then [
+prioridad = 3]
 ]
+}
+{
+if (prioridad = 1) then
+  policia = "Dar una vuelta a la manzana"
+
+elseif 
+(prioridad = 3) then
+ Bomberos = "wiuuuwiuuuu"
+
+elsif
+(prioridad = e) then
+swat = "wiuwiuwiu"
+
+else
+policia, Bomberos,swat = "zzzz"
+}
 }
