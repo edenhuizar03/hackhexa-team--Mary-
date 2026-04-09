@@ -3,7 +3,10 @@ Nuestro sistema en la secciόn de detectar la actividad usando sensores es media
 de varias señales, asignando a estas combinaciones un valor de prioridad. Posteriormente a cada prioridad de alerta corresponde una accion de respuesta en funcion del valor.
 
 ¿Cómo decide el zorro qué ruta tomar?
+Evalua todas la rutas posible y va descartando las mas largas
 
 ¿Cómo descifran mensajes en el Code Vault?
+Usando la codificacion cesar que se basa en cambiar la posicion de la letra usando la posicion del alfabeto y restandole uno. Usando esa posicion se descubre el mensaje.
+
 ¿Cómo clasifica emociones su modelo de AI? Si detecta que la sonrisa del emoji esta hacia arriba es una emocion positiva, sino es negativa
 
