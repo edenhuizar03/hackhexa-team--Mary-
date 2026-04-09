@@ -1,0 +1,35 @@
+Datos
+[
+  {
+    "emoji": "🙂",
+    "sentiment": "positivo"
+  },
+  {
+    "emoji": "😭",
+    "sentiment": "negativo"
+  },
+  {
+    "emoji": "😡",
+    "sentiment": "negativo"
+  },
+  {
+    "emoji": "😎",
+    "sentiment": "positivo"
+  },
+El patron que tiene los emojis son que al tener la boca curveada hacia arriba se detecta como un sentimiento positivo, y al no tenerla es negativo.
+
+BONUS
+ {
+    "emoji": "😍",
+    "sentiment": "positivo"
+  },
+ {
+    "emoji": "😑",
+    "sentiment": "negativo"
+  },
+ {
+    "emoji": "🤗",
+    "sentiment": "positivo"
+  }
+]
+
