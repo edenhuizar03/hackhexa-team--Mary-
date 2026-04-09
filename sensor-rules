@@ -1,1 +1,9 @@
-
+{
+  if (movimiento = "si") or (ruido = "alto") 
+then[
+    policia= "wiuwiu"]
+else
+[
+  policia= "zzzz"
+]
+}
